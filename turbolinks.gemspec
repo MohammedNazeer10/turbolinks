@@ -13,6 +13,8 @@ Gem::Specification.new do |spec|
   # Specify the dependencies
   spec.add_dependency 'rails', '>= 7.1.3.2'
   spec.add_dependency 'actionpack', '>= 7.1.3.2'
+  spec.add_dependency 'turbolinks-source', '~> 5.2'
+
 
   spec.metadata['source_code_uri'] = 'https://github.com/turbolinks/turbolinks'
 end
