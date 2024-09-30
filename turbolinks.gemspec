@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
 
 
   spec.metadata['source_code_uri'] = 'https://github.com/turbolinks/turbolinks'
-  spec.metadata['turbolinks_source_uri'] = 'https://github.com/MohammedNazeer10/turbolinks-source-gem'
-  spec.metadata['turbolinks_rails_uri'] = 'https://github.com/MohammedNazeer10/turbolinks-rails'
+  spec.add_dependency 'turbolinks-source-gem', git: 'https://github.com/MohammedNazeer10/turbolinks-source-gem', branch: 'master'
+  spec.add_dependency 'turbolinks-rails', git: 'https://github.com/MohammedNazeer10/turbolinks-rails', branch: 'master'
 end
