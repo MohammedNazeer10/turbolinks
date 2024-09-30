@@ -17,4 +17,6 @@ Gem::Specification.new do |spec|
 
 
   spec.metadata['source_code_uri'] = 'https://github.com/turbolinks/turbolinks'
+  spec.metadata['turbolinks_source_uri'] = 'https://github.com/MohammedNazeer10/turbolinks-source-gem'
+  spec.metadata['turbolinks_rails_uri'] = 'https://github.com/MohammedNazeer10/turbolinks-rails'
 end
